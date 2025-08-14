@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Revise el clima</h1>
+    
+
+    <form id="form" method="POST" action="#">
+
+        <input id="cuidad" type="text" placeholder="Ingrese la ciudad"/>
+
+        <select id="pais">
+            <option disabled selected value="">--Seleccione un pais--</option>
+            <option value="AR">Argentina</option>
+            <option value="ES">España</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="US">Estados Unidos</option>
+            <option value="MX">México</option>
+            <option value="PE">Perú</option>
+        </select>
+        
+        <button type="submit">Buscar</button>
+    </form>
+
+    <div id="respuesta">
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
